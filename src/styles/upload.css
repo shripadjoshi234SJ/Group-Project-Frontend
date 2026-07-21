@@ -1,0 +1,147 @@
+.upload-page {
+    padding: 30px;
+}
+
+.upload-container {
+    max-width: 700px;
+    margin: auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.upload-container h2 {
+    text-align: center;
+    color: #0f4c81;
+    margin-bottom: 25px;
+}
+
+.upload-box {
+    border: 2px dashed #1565c0;
+    border-radius: 10px;
+    padding: 40px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+    background: #f8fbff;
+}
+
+.upload-box:hover {
+    background: #eef6ff;
+    border-color: #0f4c81;
+}
+
+.upload-box svg {
+    font-size: 55px;
+    color: #1565c0;
+    margin-bottom: 15px;
+}
+
+.upload-box p {
+    color: #555;
+    margin-bottom: 12px;
+}
+
+.upload-box input[type="file"] {
+    display: none;
+}
+
+.file-name {
+    margin-top: 15px;
+    font-weight: 600;
+    color: #0f4c81;
+    word-break: break-word;
+}
+
+.preview-image {
+    width: 100%;
+    max-width: 350px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+}
+
+.upload-actions {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.upload-btn,
+.cancel-btn {
+    padding: 12px 22px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.upload-btn {
+    background: #1565c0;
+    color: white;
+}
+
+.upload-btn:hover {
+    background: #0f4c81;
+}
+
+.cancel-btn {
+    background: #ef5350;
+    color: white;
+}
+
+.cancel-btn:hover {
+    background: #d32f2f;
+}
+
+.camera-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.camera-preview {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    border: 2px solid #1565c0;
+}
+
+.capture-btn {
+    margin-top: 20px;
+    background: #2e7d32;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.capture-btn:hover {
+    background: #1b5e20;
+}
+
+@media (max-width: 768px) {
+
+    .upload-container {
+        padding: 20px;
+    }
+
+    .upload-box {
+        padding: 25px;
+    }
+
+    .upload-actions {
+        flex-direction: column;
+    }
+
+    .upload-btn,
+    .cancel-btn,
+    .capture-btn {
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,6 @@
+frontend/
+└── public/
+    ├── favicon.ico
+    ├── logo.png
+    ├── manifest.json
+    └── robots.txt
